@@ -3,37 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuromi Suplementos</title>
+    <title>KUROMI SUPLEMENTOS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <style>
 
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-list {
+            list-style: none; 
+            padding: 0; 
+        }
+
+        .nav-list li {
+            display: inline-block; 
+            margin-right: 20px; 
+        }
+        .cart-icon {
+            position: fixed; 
+            top: 0; 
+            right: 20px; 
+            padding: 10px; 
+        }
+        
+        .cart-icon i {
+            font-size: 24px;  
+            color: black; 
+            margin-right: 10px;
+        }
+        
+        .cart-icon a {
+            text-decoration: none;
+        }
+
+        .header-img {
+            max-width: 80px;
+            max-height: 100px;
+        }
+        
         h2 {
             text-align: center;
         }        
 
         p1 {
-            color: white; 
+            color: black; 
             font-size: 24px; 
         }
 
         header {
             background-color: #e70c31;
-            color: white;
+            color: black;
             text-align: center;
             padding: 20px;
         }
 
         .container {
             margin-top: 20px;
-            margin-bottom: 10%;
+            margin-bottom: 20%;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1><u>Kuromi Suplementos</u></h1>
+        <img src="img/logokuromi.png" alt="KuromiLogo" class="header-img">
+        <h1><u>KUROMI SUPLEMENTOS</u></h1>
         <p1>Tenha o desenvolvimento que sempre sonhou!</p1>
+
+        <div class="navbar">
+            <ul>
+            </ul>
+            <div class="cart-icon">
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
 
     </header>
 
